@@ -1,0 +1,28 @@
+*{
+  margin: 10px;
+  padding: 10px;
+}
+
+main {
+  background: gray;
+}
+.Contenido{
+  background: black;
+  display: flex;
+}
+    .MainArticle{
+    background:blue;
+    flex: 3 1 auto;
+  }
+    .News{
+    background: red;
+    flex: 1 1 auto;
+    }
+    li{
+      list-style: none;
+    }
+      .ArticleImg{
+        height: 200px;
+        width:  300px;
+        position:relative;
+        }

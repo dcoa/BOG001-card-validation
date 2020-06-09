@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Fundación Caguana</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <!--PAGINA PRINCIPAL-->
+    <header>
+      <nav>
+          <a href="#">Contacto</a>
+          <a href="#AboutUs">Nosotros</a>
+          <a href="#Home">Home</a>
+          <a href="#Farmers">Donar</a>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="Home">
+        <h1>Fundación Caguana</h1>
+        <p>Labrando el futuro</p>
+      </section>
+      <section  class= "Contenido" id="AboutUs">
+         <!--NOSOTROS-->
+        Nosotros -
+        <article class="MainArticle">
+            <h1>Colombia país de agricultores</h1>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab"</p>
+            <img src="https://images.pexels.com/photos/3963167/pexels-photo-3963167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" style="width:  500px;   height: 400px;">
+        </article>
+          <aside class="News">
+            <nav>
+              <ul>
+                <li>  <img src="https://images.pexels.com/photos/669162/pexels-photo-669162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="ArticleImg"> <a href="">Articulo 1</a></li>
+                <li>  <img src="https://cdn.pixabay.com/photo/2014/09/19/19/13/cocoa-452911_960_720.jpg" alt="" class = "ArticleImg"> <a href="">Articulo 2</a></li>
+                <li>  <img src="https://cdn.pixabay.com/photo/2014/09/19/19/09/peasant-452904_960_720.jpg" alt="" class="ArticleImg"> <a href="">Articulo 3</a></li>
+              </ul>
+            </nav>
+          </aside>
+      </section>
+       <!--CAMPESINOS-->
+      <section id="Farmers" class= "Contenido">
+        Donar -
+        <h1>NUESTROS CAMPESINOS</h1>
+        <article class="Farmer">
+          <h2>Mario Fernandez</h2>
+          <h3>Agricultor Cauca</h3>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab"</p>
+          <button name="Donate">Donar</button>
+        </article>
+        <article class="Farmer">
+            <h2>Luisa Reyes</h2>
+            <h3>Agricultor Boyaca</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+          <button name="Donate">Donar</button>
+        </article>
+        <article class="Farmer">
+            <h2>Antonia López</h2>
+          <h3>Agricultor Huila</h3>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+          <button name="Donate">Donar</button>
+        </article>
+      </section>
+        <!--FORMULARIO-->
+      <section class= "Contenido">
+        <h1>Llena la siguiente información para donar</h1>
+        <form class="" action="index.html" method="post">
+          <p><label for="Name">Nombre y Apellidos</label> <input type="text" name="Name" value=""> </p>
+          <p>Email <input type="text" name="Email" value=""> </p>
+          <p>Número Tarjeta Débito <input type="text" name="" value=""> </p>
+          <p>Número Tarjeta Crédito <input type="text" name="" value=""> </p>
+          <p>Valor a Donar <input type="text" name="" value=""> </p>
+          <p> <button id="TDC">Enviar</button></p>
+        </form>
+      </section >
+       <!--VALIDACION-->
+      <section class= "Contenido">
+        <p>Gracias por ayudarnos a construir un mejor futuro. Tú donación por $XXX ha sido registrada</p>
+      </section>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
