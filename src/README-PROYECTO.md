@@ -13,4 +13,8 @@ La elección del producto final, es resultado de intereses comunes y de la fuert
 ### Como crees que el producto que estas creando esta resolviendo los problemas
 
 * Las tecnologías de la comunicación actualmente representa la existencia de problemas y soluciones en un mundo donde la tecnología tiene un papel protagónico, es por esto que por medio de esta página se expone un problema interno que es el abandono, el desperdicio y el
+<<<<<<< HEAD
 desinterés de las zonas rurales que son fundamentales para el crecimiento de Colombia, por esto el poder de la visibilidad que le otorga nuestra página, concebida para la inclusión de toda la población debido que la desigualdad engloba la tecnología y esta problemática puede solucionar brechas y construir un país solidario que comprenda todas las realidades y contextos que Colombia presenta, coadyuvando mediante donaciones.
+=======
+desinterés de las zonas rurales que son fundamentales para el crecimiento de Colombia, por esto el poder de la visibilidad que le otorga nuestra página, concebida para la inclusión de toda la población debido que la desigualdad engloba la tecnología y esta problemática puede solucionar brechas y construir un país solidario que comprenda todas las realidades y contextos que Colombia presenta, coadyuvando mediante donaciones.
+>>>>>>> 9a66b7af26d78d9b36a20d6308d8bea25f768bf9
