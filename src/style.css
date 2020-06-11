@@ -1,5 +1,166 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-=======
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
->>>>>>> 9a66b7af26d78d9b36a20d6308d8bea25f768bf9
+@import url@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@500;600&display=swap');
+:root{
+  --yellow:#F1B32D
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.donate-btn{
+     padding: 10px 15px;
+     background-color:#F1B32D;
+     color: white;
+     text-decoration: none;
+}
+.donate-btn:hover{
+  border: 2px solid #F1B32D;
+  background-color: rgb(241, 206, 128);
+   }
+.btn{
+  border-radius: 2px;
+  border: none;
+}
+
+h1{
+  font-family:  'Quicksand', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  border-bottom: solid 1px #F1B32D;
+  display: inline;
+  text-transform: uppercase;
+  color: #F1B32D;
+}
+h2, h3{
+ font-family:  'Quicksand', sans-serif;
+ font-weight: 500;
+
+}
+p,a, form{
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+
+}
+
+/*HOME-NAV BAR*/
+header{
+ width: 100%;
+ margin-top:15px;
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ position: fixed;
+ justify-content: flex-end;
+ background-color:#FFFFFF;
+ opacity: 0.5;
+}
+nav > a{
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding-right:20px;
+}
+
+nav > a:hover{
+  color:var(--yellow);
+}
+.home-box{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  background: url("img/hands-2570889_1920.jpg");
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+    .home-box  h1{
+      color: white;
+      margin-top:100px;
+      font-weight:100;
+      font-size:3em;
+      }
+
+      .home-box  h3{
+        color: #FFFF;
+        margin: 30px 0px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+}
+
+section{
+   width: 100%;
+   padding: 30px;
+   background: #FCFCFC;
+}
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+    .article-section{
+      width: 20%;
+      padding: 20px;
+      border-left: solid 5px #FFE7AF;
+    }
+
+    .article-section a {
+      position: relative;
+      text-decoration: none;
+      bottom: 50px;
+      color:#fff;
+      background-color:#000;
+      opacity: 0.7;
+      padding: 5px
+    }
+    .main-article{
+      width: 80%;
+      height: 100%;
+      margin: 10px;
+
+   }
+
+    .subject{
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+    }
+
+    .img-subject{
+      margin: 20px;
+    }
+    #subject{
+      margin: 20px;
+    }
+
+.selectdonate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+    .select{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .Farmer{
+      align-self: auto;
+      padding: 30px;
+      justify-content:center;
+      margin: 10px;
+      border: solid 5px #FFE7AF;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .Farmer > p {
+      text-align: left;
+    }
