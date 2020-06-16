@@ -1,23 +1,24 @@
 const validator = {
-    isValid: isValid(),
+    isValid: function isValid(cardCreditNumber){
+      let cardNumber = Array.from(cardCreditNumber);
+      let reverseNumber = cardNumber.reverse();
+      let sumNumber = [];
+
+      reverseNumber.forEach((a, i) => {
+      if (a, i % 2 !== 0) {
+        a = parseInt(a * 2);
+          if (a > 9) {
+          a = sumaDigit(a);
+        }
+      }
+       sumNumber.push(parseInt(a));
+    });
+      validate(sumNumber);
+    },
+    maskify: 
 };
 
-function isValid(){
-  let cardNumber = Array.from();
-  let reverseNumber = cardNumber.reverse();
-  let sumNumber = [];
 
-  reverseNumber.forEach((a, i) => {
-  if (a, i % 2 !== 0) {
-    a = parseInt(a * 2);
-      if (a > 9) {
-      a = sumaDigit(a);
-    }
-  }
-   sumNumber.push(parseInt(a));
-});
-  validate(sumNumber);
-}
 
  function sumaDigit(a) {
         let numstring = a.toString();

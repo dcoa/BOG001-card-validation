@@ -82,38 +82,38 @@
         </div>
       </section>
       <!--FORMULARIOS/VISTA1-->
-      <div class="box-form">
+      <div id="donation-Form" style="display:block" class="box-form">
         <div class="user-form">
           <div class="picture"> </div>
           <div class="data-form">
-        <h2>Por un futuro sostenible</h2>
-          <form action="">
-            <label for="">Nombre</label>
-                  <input id="Name" type="text" class="field">
-                  <label >Telefono</label>
-                  <input type="text" class="field">
-                  <label >email</label>
-                  <input type="email" class="field">
-                  <label >Número de tarjeta</label>
-                  <input id ="TDC" type="text" class="field">
-                  <button class="send-btn btn">Enviar</button>
-          </form>
-        </div>
-        </div>
-      </div>
-      <!--FORMULARIOS/VISTA2-->
-      <div class="box-form">
-        <div class="user-form">
-          <div class="picture"> </div>
-          <div class="data-form">
-        <h2>Por un futuro sostenible</h2>
-          <h2 id="user-name"></h2>
-          <h3>Su número de tarjeta es</h3>
-          <h4 id="TDC-number"></h4>
-          <button class="validate-btn btn">Validar</button>
-        </div>
-        </div>
-      </div>
+            <h2>Por un futuro sostenible</h2>
+            <form>
+               <label for="Name">Nombre</label>
+               <br>
+               <input id="Name" type="text" class="field" name="user-name">
+               <br>
+               <label for="Phone">Telefono</label>
+               <br>
+               <input id="Phone" type="tel" class="field" name="user-phone">
+               <br>
+               <label for="mail">E-mail</label>
+               <br>
+               <input id="mail" type="email" class="field" name="user-mail">
+               <br>
+               <label for="TDC">Número de tarjeta</label>
+               <br>
+               <input id ="TDC" type="text" class="field" name="user-TC" maxlength="16">
+     <!--MOSTRAR MASCARA DEL NUMERO-->
+             <div style="display:none;" id="showMask">
+               <hr>
+               <h3>Su número es</h3>
+               <h3 id="TDC-mask"></h3>
+             </div>
+            <button class="send-btn btn">Validar</button>
+       </form>
+     </div>
+     </div>
+   </div>
         <!--MENSAJE/TARJETA VALIDA-->
         <div id ="pass" class="validation">
           <div class="validation-true">

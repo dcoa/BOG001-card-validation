@@ -179,7 +179,7 @@ section{
     .Farmer > p {
       text-align: left;
     }
-/*FOOTER*/
+
 /*FOOTER*/
 .footer-box{
   background-color: var(--yellow);
@@ -193,6 +193,7 @@ section{
  flex-wrap: nowrap;
  color: whitesmoke;
 }
+
 .footer-box .section{
   flex: 1 1 auto;
   align-self: auto;
@@ -216,11 +217,11 @@ font-size: small;
 padding-bottom: -2px;
 display: block;
 }
+
 .footer-right p{
  font-size: small;
  padding-bottom: -2px;
  padding-inline: -1px;
-
 }
 /*#copyright{
   background-color:#bb8b247e;
