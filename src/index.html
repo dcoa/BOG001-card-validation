@@ -88,7 +88,7 @@
           <div class="data-form">
             <h2>Por un futuro sostenible</h2>
 
-            <form id="form-box" style="display:block" onsubmit="">
+            <form id="form-box" style="display:block">
               <label for="name">Nombre</label>
               <br>
               <input id="name" type="text" class="field" name="user-name" required="required"/>
@@ -103,10 +103,12 @@
               <br>
               <label for="numberCreditCard">Número de tarjeta</label>
               <br>
-              <input id ="numberCreditCard" type="text" class="field" pattern="^[0-9]*$" name="user-TC" maxlength="16" required="required"/>
-              <span id="falsef"></span>
+              <input id ="numberCreditCard" type="text" class="field" pattern="^[0-9]*$" title="Introduzca los números de su tarjeta" name="user-TC" maxlength="16" required="required"/>
+              <span id="false"></span>
               <button style="display:block"  id="valid" type="submit" class="send-btn form-btn">Validar</button>
+              <button style="display:none" id="back" class="back-btn form-btn" onClick="window.location.reload();">Regresar</button>
             </form>
+
             <!--MENSAJE/TARJETA VALIDA-->
             <div style="display:none" class="validation" id="pass">
               <div class="validation-true">
