@@ -37,7 +37,8 @@ describe('validator', () => {
       expect(validator.maskify("1")).toBe("1");
       });
 
-    skip('Debería retornar "######orld" para "helloworld"', () => {
+    it('Debería retornar "######orld" para "helloworld"', () => {
       expect(validator.maskify("helloworld")).toBe("######orld");
     });
   });
+});

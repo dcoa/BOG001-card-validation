@@ -17,13 +17,15 @@ const validator = {
     },
 
     maskify: function maskify(cardCreditNumber){
-      if(cardCreditNumber.length>4){
+      if(cardCreditNumber.length > 4){
         let cutNumber = cardCreditNumber.substr(0,cardCreditNumber.length-4);
         let changeString = cutNumber.replace(/[a-z0-9]/g, '#');
         let lastNumber = cardCreditNumber.substr(-4);
         let fullNumber = changeString.concat(lastNumber);
         return fullNumber;
-        }
+      } else {
+        return cardCreditNumber;
+      }
   },
 };
 

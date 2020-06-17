@@ -31,7 +31,7 @@ function getInfo (){
     }
 }
 
-
+//Muestra el formulario para donar
 function show(){
   let div1 = document.getElementById('aboutUs');
   let div2 = document.getElementById('select-donate');
@@ -41,6 +41,7 @@ function show(){
   div3.style.display = 'block';
 }
 
+//Muestra mensaje de donación si la tarjeta es valida
 function pass(){
   let div1 = document.getElementById('form-box');
   let div2 = document.getElementById('pass');
