@@ -1,5 +1,5 @@
 const validator = {
-    isValid: function isValid(cardCreditNumber){
+    isValid: (cardCreditNumber) => {
       let cardNumber = Array.from(cardCreditNumber);
       let reverseNumber = cardNumber.reverse();
       let sumNumber = [];
@@ -16,7 +16,7 @@ const validator = {
       return validate(sumNumber);
     },
 
-    maskify: function maskify(cardCreditNumber){
+    maskify:(cardCreditNumber) => {
       if(cardCreditNumber.length > 4){
         let cutNumber = cardCreditNumber.substr(0,cardCreditNumber.length-4);
         let changeString = cutNumber.replace(/[a-z0-9]/g, '#');
