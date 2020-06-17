@@ -82,55 +82,46 @@
         </div>
       </section>
       <!--FORMULARIOS/VISTA1-->
-      <div id="donation-Form" style="display:block" class="box-form">
+      <section id="donation-Form" style="display:none" class="box-form">
         <div class="user-form">
           <div class="picture"> </div>
           <div class="data-form">
             <h2>Por un futuro sostenible</h2>
-            <form>
-               <label for="Name">Nombre</label>
-               <br>
-               <input id="Name" type="text" class="field" name="user-name">
-               <br>
-               <label for="Phone">Telefono</label>
-               <br>
-               <input id="Phone" type="tel" class="field" name="user-phone">
-               <br>
-               <label for="mail">E-mail</label>
-               <br>
-               <input id="mail" type="email" class="field" name="user-mail">
-               <br>
-               <label for="TDC">Número de tarjeta</label>
-               <br>
-               <input id ="TDC" type="text" class="field" name="user-TC" maxlength="16">
-     <!--MOSTRAR MASCARA DEL NUMERO-->
-             <div style="display:none;" id="showMask">
-               <hr>
-               <h3>Su número es</h3>
-               <h3 id="TDC-mask"></h3>
-             </div>
-            <button class="send-btn btn">Validar</button>
-       </form>
-     </div>
-     </div>
-   </div>
-        <!--MENSAJE/TARJETA VALIDA-->
-        <div id ="pass" class="validation">
-          <div class="validation-true">
-            <h2>Gracias</h2>
-            <p>Tu aporte transfoma vidas</p>
+
+            <form id="form-box" style="display:block" onsubmit="">
+              <label for="name">Nombre</label>
+              <br>
+              <input id="name" type="text" class="field" name="user-name" required="required"/>
+              <br>
+              <label for="phone">Teléfono</label>
+              <br>
+              <input id="phone" type="tel" class="field" name="user-phone" required="required"/>
+              <br>
+              <label for="mail">E-mail</label>
+              <br>
+              <input id="mail" type="email" class="field" name="user-mail" required="required"/>
+              <br>
+              <label for="numberCreditCard">Número de tarjeta</label>
+              <br>
+              <input id ="numberCreditCard" type="text" class="field" pattern="^[0-9]*$" name="user-TC" maxlength="16" required="required"/>
+              <span id="falsef"></span>
+              <button style="display:block"  id="valid" type="submit" class="send-btn form-btn">Validar</button>
+            </form>
+            <!--MENSAJE/TARJETA VALIDA-->
+            <div style="display:none" class="validation" id="pass">
+              <div class="validation-true">
+                <hr>
+                <h3>Aporte realizado con Tarjeta de credito N°</h3>
+                <h4 id="numberCreditCard-mask"></h4>
+                <p>"El campo son los pies que sostienen la nación"<br><em>Tomas Moro</em></p>
+                <br>
+                <button class="back-btn form-btn" onclick="window.location.reload();">Regresar</button>
+              </div>
+            </div>
+
           </div>
-         <button class="home-btn btn">Regresar</button>
         </div>
-        <!--MENSAJE/TARJETA NO VALIDA-->
-        <div id="denied" class="validation">
-          <div class="validation-true">
-            <h2></h2>
-            <p></p>
-          </div>
-         <button class="home-btn btn">Regresar</button>
-         <button class="form-btn btn">De nuevo</button>
-        </div>
+      </section>
 </main>
 <!--FOOTER-->
  <footer id="footer" class="footer-box">
