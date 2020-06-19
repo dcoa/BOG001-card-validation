@@ -12,7 +12,6 @@ for (var i = 0; i < donateButton.length; i++) {
 }
 const form = document.getElementById("form-box");
 form.addEventListener("submit", getInfo);
-const validateButton = document.getElementById('valid');
 
 
 function getInfo (){
