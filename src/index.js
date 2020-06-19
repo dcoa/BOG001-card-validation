@@ -10,9 +10,10 @@ const donateButton = document.getElementsByClassName('donate-btn');
 for (var i = 0; i < donateButton.length; i++) {
   donateButton[i].addEventListener('click', show);
 }
-
+const form = document.getElementById("form-box");
+form.addEventListener("submit", getInfo);
 const validateButton = document.getElementById('valid');
-validateButton.addEventListener("click", getInfo);
+
 
 function getInfo (){
   let creditCardNumber = document.getElementById('numberCreditCard').value;
