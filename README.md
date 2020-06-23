@@ -58,8 +58,8 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 ### Javascript
 
 * [X] Manipulación de strings
-* [X] Uso de condicionales
-* [X] Uso de bucles
+* [ ] Uso de condicionales
+* [ ] Uso de bucles
 * [X] Uso de funciones
 * [X] Datos atómicos y estructurados
 * [ ] Utilizar ES Modules (`import` | `export`).
