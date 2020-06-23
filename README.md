@@ -51,9 +51,9 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### DOM
 
-* [X] Uso de selectores de nodos del DOM
-* [X] Manejo de eventos del DOM
-* [X] Manipulación dinámica del DOM
+* [ ] Uso de selectores de nodos del DOM
+* [ ] Manejo de eventos del DOM
+* [ ] Manipulación dinámica del DOM
 
 ### Javascript
 
