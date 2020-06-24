@@ -30,6 +30,16 @@ La elección del producto final, es resultado de intereses comunes y de la fuert
 
 Se hicieron ajustes de acuerdo al feedback, donde parte del diseño cambió durante el desarrollo de la maquetación del HTML y los estilos CSS, para que cada elemento se acoplara y lograr que la parte visual de la página fuera lo más cercano al prototipo.
 
+### Herramientas de apoyo
+[Figma](https://www.figma.com/) - Prototipado
+[InVision](https://www.invisionapp.com/) - Protopitado
+[Pixabay](https://pixabay.com/es/) - Fotografías
+[Pexels](https://www.pexels.com/) - Fotografías
+
+### AUTORES
+Laura Alejandra López [lalopez13](https://github.com/lalopez13)
+Diana Catalina Olarte [dcoa](https://github.com/dcoa)
+
 ### Objetivos de aprendizaje 🚀
 
 Trabajando en parejas aprenderán a construir una aplicación web que interactuará con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript como tecnologías.
